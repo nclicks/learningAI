@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
 COPY train.py .
-RUN python train.py
+RUN python train.py --tracking-uri sqlite:////app/mlflow.db
 
 EXPOSE 8000
 

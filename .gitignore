@@ -1,3 +1,7 @@
 __pycache__/
 .pytest_cache/
 *.py[cod]
+/app/iris_model.joblib
+/mlflow.db
+/mlflow.db-*
+/mlartifacts/
